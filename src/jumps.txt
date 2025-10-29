@@ -1,4 +1,0 @@
-crm : /Users/Jonathan/code_software_house/github/sgm_crm
-taiga : /Users/Jonathan/code_threefold/github/freeflowuniverse/taiga_play
-hotel : /Users/Jonathan/code_threefold/github/freeflowuniverse/hotel
-jump : /Users/Jonathan/code_personal/github/jump
