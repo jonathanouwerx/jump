@@ -226,13 +226,13 @@ fn get_config() !Config {
 	doc := toml.parse_file('${dir_path}/config.toml') or {
 		// Return default config if file doesn't exist
 		return Config{
-			default_editor: 'code'
+			default_editor: 'cursor'
 			open_in_editor: true
 		}
 	}
 
 	config := Config{
-		default_editor: doc.value('default_editor').default_to('code').string()
+		default_editor: doc.value('default_editor').default_to('cursor').string()
 		open_in_editor: doc.value('open_in_editor').default_to(true).bool()
 	}
 	return config

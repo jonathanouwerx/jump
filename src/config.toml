@@ -1,2 +1,2 @@
-default_editor = "cursor"
+default_editor = 'cursor'
 open_in_editor = true
